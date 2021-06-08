@@ -11,17 +11,11 @@ import {
 } from '@angular/core';
 
 import ImageViewer from 'iv-viewer';
-import {FullScreenViewer} from 'iv-viewer';
+import { FullScreenViewer } from 'iv-viewer';
 
-/**
- * @author Breno Prata - 22/12/2017
- */
 @Component({
-
     selector: 'app-image-viewer',
-
     templateUrl: './image-viewer.component.html',
-
     styleUrls: ['./image-viewer.component.scss']
 })
 export class ImageViewerComponent implements OnChanges, OnInit, AfterViewInit {
@@ -73,7 +67,7 @@ export class ImageViewerComponent implements OnChanges, OnInit, AfterViewInit {
 
     zoomPercent = 100;
 
-    constructor(private renderer: Renderer2) {}
+    constructor(private renderer: Renderer2) { }
 
     ngOnInit() {
         if (this.loadOnInit) {
@@ -136,7 +130,7 @@ export class ImageViewerComponent implements OnChanges, OnInit, AfterViewInit {
 
     buttonsColorChange(changes: SimpleChanges) {
         if (changes['buttonsColor'] || changes['rotate'] || changes['download']
-        || changes['fullscreen']) {
+            || changes['fullscreen']) {
             setTimeout(() => {
 
                 this.setStyleClass('footer-icon', 'color', this.buttonsColor);
@@ -204,7 +198,7 @@ export class ImageViewerComponent implements OnChanges, OnInit, AfterViewInit {
 
     carregarViewerPDF() {
         this.esconderBotoesImageViewer();
-        const {widthIframe, heightIframe} = this.getTamanhoIframe();
+        const { widthIframe, heightIframe } = this.getTamanhoIframe();
         this.injetarIframe(widthIframe, heightIframe);
     }
 
@@ -227,7 +221,7 @@ export class ImageViewerComponent implements OnChanges, OnInit, AfterViewInit {
 
         const widthIframe = container.offsetWidth;
         const heightIframe = container.offsetHeight;
-        return {widthIframe, heightIframe};
+        return { widthIframe, heightIframe };
     }
 
     esconderBotoesImageViewer() {

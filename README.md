@@ -1,7 +1,7 @@
-## Welcome to Ng2-Image Viewer
+## Welcome to Ngx-Image Viewer
 <section>
     <p>This component uses the <a href="http://ignitersworld.com/lab/imageViewer.html">Image Viewer JS</a> in it's core.</p>
-    <p>Ng2-Image Viewer uses MIT license, so you can use it as you wish, feel free to help contributing with the code.</p>
+    <p>Ngx-Image Viewer uses MIT license, so you can use it as you wish, feel free to help contributing with the code.</p>
     <p>This component allows you to:</p>
     <ul>
         <li>
@@ -28,24 +28,6 @@
     </ul>
 </section>
 
-## Upgrading from prior to 3.0
-<p>Take a look at this <a href="https://github.com/brenoprata10/ng2-image-viewer/wiki/Upgrading-from-versions-prior-to-3.0">quick tutorial</a>!
-
-## Donate:
-<section>
-
-<p>You can donate on my Patreon!</p>
-
-<p>
-<a href="https://www.patreon.com/brenoprata">My Patreon o/</a>
-</p>
-
-</section>
-
-<h3>Demo:</h3>
-<section>
-<a href="https://brenoprata10.github.io/ng2-image-viewer/">https://brenoprata10.github.io/ng2-image-viewer/</a>
-</section>
 <h3>Requirements: </h3>
 <section>
     <ul>
@@ -267,7 +249,7 @@ To install this library, run:
 
 ```bash
 $ npm install iv-viewer --save
-$ npm install ng2-image-viewer --save
+$ npm install ngx-image-viewer --save
 ```
 
 ## Consuming the library
@@ -281,7 +263,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { ImageViewerModule } from 'ng2-image-viewer';
+import { ImageViewerModule } from 'ngx-image-viewer';
 
 @NgModule({
   declarations: [
@@ -303,7 +285,7 @@ Now just add the these codes on your angular-cli.json file:
 
 ```json
 "styles": [
-    "../node_modules/ng2-image-viewer/imageviewer.scss"
+    "../node_modules/ngx-image-viewer/imageviewer.scss"
 ],
 ```
 
@@ -377,6 +359,7 @@ To lint all `*.ts` files:
 $ npm run lint
 ```
 
+This library is a fork of [ng2-image-viewer](https://github.com/brenoprata10/ng2-image-viewer) 
 ## License
 
-MIT © [brenoprata10](mailto:brenoprata10@gmail.com)
+MIT © [fabiomirandaa](mailto:fabiomirandadev@gmail.com)

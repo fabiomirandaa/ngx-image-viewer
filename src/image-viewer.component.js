@@ -7,9 +7,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 exports.__esModule = true;
 var core_1 = require("@angular/core");
-/**
- * @author Breno Prata - 22/12/2017
- */
 var ImageViewerComponent = /** @class */ (function () {
     function ImageViewerComponent() {
         this.BASE_64_IMAGE = 'data:image/png;base64,';

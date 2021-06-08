@@ -1,30 +1,40 @@
 {
-  "name": "ng2-image-viewer",
-  "version": "1.1.1",
+  "name": "@fabiomirandadev/ngx-image-viewer",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brenoprata10/ng2-image-viewer"
+    "url": "https://github.com/fabiomirandaa/ngx-image-viewer"
   },
   "author": {
-    "name": "brenoprata10",
-    "email": "brenoprata10@gmail.com"
+    "name": "fabiomiranda",
+    "email": "fabiomirandadev@gmail.com"
   },
   "keywords": [
     "angular",
     "image",
     "viewer",
     "angular 4",
+    "angular 5",
+    "angular 6",
+    "angular 7",
+    "angular 8",
+    "angular 9",
+    "angular 10",
+    "angular 11",
     "pdf",
-    "pdf viewer"
+    "pdf viewer",
+    "url image viewer",
+    "zoom",
+    "ngx-image-viewer"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brenoprata10/ng2-image-viewer/issues"
+    "url": "https://github.com/fabiomirandaa/ngx-image-viewer/issues"
   },
-  "main": "ng2-image-viewer.umd.js",
-  "module": "ng2-image-viewer.js",
-  "jsnext:main": "ng2-image-viewer.js",
-  "typings": "ng2-image-viewer.d.ts",
+  "main": "ngx-image-viewer.umd.js",
+  "module": "ngx-image-viewer.js",
+  "jsnext:main": "ngx-image-viewer.js",
+  "typings": "ngx-image-viewer.d.ts",
   "peerDependencies": {
     "@angular/core": "^7.0.0",
     "iv-viewer": "~2.0.0",
