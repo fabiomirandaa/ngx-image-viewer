@@ -1,0 +1,40 @@
+{
+    "name": "@fabiomirandadev/ngx-image-viewer",
+    "version": "2.0.0-rc",
+    "peerDependencies": {
+        "@angular/core": ">=9.0.0",
+        "iv-viewer": "~2.0.0",
+        "rxjs": "^5.1.0",
+        "zone.js": "^0.8.4"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabiomirandaa/ngx-image-viewer"
+    },
+    "author": {
+        "name": "Fábio Miranda",
+        "email": "fabiomirandadev@gmail.com"
+    },
+    "keywords": [
+        "angular",
+        "image",
+        "viewer",
+        "angular 4",
+        "angular 5",
+        "angular 6",
+        "angular 7",
+        "angular 8",
+        "angular 9",
+        "angular 10",
+        "angular 11",
+        "pdf",
+        "pdf viewer",
+        "url image viewer",
+        "zoom"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fabiomirandaa/ngx-image-viewer/issues"
+    }
+}
